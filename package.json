@@ -1,0 +1,19 @@
+{
+  "name": "pdf-chat",
+  "version": "1.0.0",
+  "description": "Web app that let's you chat with multiple pdf's at once.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "github.com/Ayothegod",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.4"
+  }
+}
